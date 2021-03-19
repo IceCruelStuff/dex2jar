@@ -48,7 +48,7 @@ jobs:
           asset_content_type: application/zip
 
       - name: Archive artifacts
-        uses: actions/upload-artifacts@v2
+        uses: actions/upload-artifact@v2
         if: success()
         with:
           name: dex-tools-2.1-SNAPSHOT
