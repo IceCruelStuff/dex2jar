@@ -1,3 +1,8 @@
+# Downloads
+**To download latest builds, head to the [Releases](https://github.com/IceCruelStuff/dex2jar-Releases/releases).**
+
+**Note: the builds in [Releases](https://github.com/IceCruelStuff/dex2jar-Releases/releases) are automatically built by GitHub Actions.**
+
 **Project move to [SourceForge](https://sourceforge.net/p/dex2jar) and [Bitbucket](https://bitbucket.org/pxb1988/dex2jar) and [Github](https://github.com/pxb1988/dex2jar)**
 
 | _ | Mirror | Wiki | Downloads | Issues |
@@ -8,7 +13,7 @@
 | gc | https://code.google.com/p/dex2jar | [old](http://code.google.com/p/dex2jar/w/list) | [old](http://code.google.com/p/dex2jar/downloads/list) | [old](http://code.google.com/p/dex2jar/issues/list)|
 
 
-#dex2jar [![Build Status](https://travis-ci.org/pxb1988/dex2jar.svg?branch=2.x)](https://travis-ci.org/pxb1988/dex2jar)
+# dex2jar [![Build Status](https://travis-ci.org/pxb1988/dex2jar.svg?branch=2.x)](https://travis-ci.org/pxb1988/dex2jar)
 Tools to work with android .dex and java .class files
 
 1. dex-reader/writer:
