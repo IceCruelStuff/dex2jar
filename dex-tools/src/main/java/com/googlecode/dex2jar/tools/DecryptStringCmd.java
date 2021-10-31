@@ -162,7 +162,7 @@ public class DecryptStringCmd extends BaseCmd {
 
         final Path jar = new File(remainingArgs[0]).toPath();
         if (!Files.exists(jar)) {
-            System.err.println(jar + " is not exists");
+            System.err.println(jar + " doesn't exist");
             return;
         }
         if (output == null) {
@@ -292,7 +292,10 @@ public class DecryptStringCmd extends BaseCmd {
                     // convert ir to m3
                     MethodNode m3 = new MethodNode();
                     m3.tryCatchBlocks = new ArrayList<>();
-                    new IR2JConverter(true).convert(irMethod, m3);
+                    new IR2JConverter()
+                            .ir(irMethod)
+                            .asm(m3)
+                            .convert();
 
                     // copy back m3 to m
                     m.maxLocals = -1;

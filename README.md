@@ -1,14 +1,14 @@
-**Project move to [SourceForge](https://sourceforge.net/p/dex2jar) and [Bitbucket](https://bitbucket.org/pxb1988/dex2jar) and [Github](https://github.com/pxb1988/dex2jar)**
+# dex2jar
+
+**Project move to [GitHub](https://github.com/pxb1988/dex2jar)**
 
 | _ | Mirror | Wiki | Downloads | Issues |
 |--:|:-----|:----:|:---------:|:------:|
-| sf | https://sourceforge.net/p/dex2jar | [Wiki](https://sourceforge.net/p/dex2jar/wiki) | [Downloads](https://sourceforge.net/projects/dex2jar/files/) | [Tickets](https://sourceforge.net/p/dex2jar/tickets/) |
-| bb | https://bitbucket.org/pxb1988/dex2jar | [Wiki](https://bitbucket.org/pxb1988/dex2jar/wiki) | [Downloads](https://bitbucket.org/pxb1988/dex2jar/downloads) | [Issues](https://bitbucket.org/pxb1988/dex2jar/issues) |
 | gh | https://github.com/pxb1988/dex2jar | [Wiki](https://github.com/pxb1988/dex2jar/wiki) | [Releases](https://github.com/pxb1988/dex2jar/releases) | [Issues](https://github.com/pxb1988/dex2jar/issues) |
+| sf | https://sourceforge.net/p/dex2jar | [old](https://sourceforge.net/p/dex2jar/wiki) | [old](https://sourceforge.net/projects/dex2jar/files/) | [old](https://sourceforge.net/p/dex2jar/tickets/) |
+| bb | https://bitbucket.org/pxb1988/dex2jar | [old](https://bitbucket.org/pxb1988/dex2jar/wiki) | [old](https://bitbucket.org/pxb1988/dex2jar/downloads) | [old](https://bitbucket.org/pxb1988/dex2jar/issues) |
 | gc | https://code.google.com/p/dex2jar | [old](http://code.google.com/p/dex2jar/w/list) | [old](http://code.google.com/p/dex2jar/downloads/list) | [old](http://code.google.com/p/dex2jar/issues/list)|
 
-
-#dex2jar [![Build Status](https://travis-ci.org/pxb1988/dex2jar.svg?branch=2.x)](https://travis-ci.org/pxb1988/dex2jar)
 Tools to work with android .dex and java .class files
 
 1. dex-reader/writer:
@@ -22,14 +22,18 @@ Tools to work with android .dex and java .class files
 
 ## Usage
 
+1. In the root directory run: ./gradlew distZip
+2. cd dex-tools/build/distributions
+3. Unzip the file dex-tools-2.1-SNAPSHOT.zip (file size should be ~5 MB)
+4. Run d2j-dex2jar.sh from the unzipped directory
+
+### Example usage:
 > sh d2j-dex2jar.sh -f ~/path/to/apk_to_decompile.apk
 
 And the output file will be `apk_to_decompile-dex2jar.jar`.
 
 ## Need help ?
-send email to dex2jar@googlegroups.com 
-
-or post on issue trackers list above.
+post on issue trackers list above.
 
 ## License
 [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
