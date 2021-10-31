@@ -1,3 +1,8 @@
+# Downloads
+**To download latest builds, head to the [Releases](https://github.com/IceCruelStuff/dex2jar-Releases/releases).**
+
+**Note: the builds in [Releases](https://github.com/IceCruelStuff/dex2jar-Releases/releases) are automatically built by GitHub Actions.**
+
 # dex2jar
 
 **Project move to [GitHub](https://github.com/pxb1988/dex2jar)**
